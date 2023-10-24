@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: gateway
+          default-label: circuit-breaker
           uri: https://github.com/mario199764/microservice
           search-paths: config-data
   application:
